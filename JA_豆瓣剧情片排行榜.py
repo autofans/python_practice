@@ -31,8 +31,8 @@ workbook = xlsxwriter.Workbook("demo1.xlsx")
 worksheet = workbook.add_worksheet()
 
 for i in range(len(data2)):
-    print("排名:", "", str(i+1), "\t", "电影名:", str(data2[i]).ljust(30), "\t豆瓣评分:", "", str(data1[i]))
-    # result.append("排名："+str(i+1)+"电影名："+data2[i] + "豆瓣评分："+data    1[i])
+    # print("排名:", "", str(i+1), "\t", "电影名:", str(data2[i]).ljust(30), "\t豆瓣评分:", "", str(data1[i]))
+    # # result.append("排名："+str(i+1)+"电影名："+data2[i] + "豆瓣评分："+data    1[i])
 
     # 写入数据
     worksheet.write("A"+str(i+1), "排名"+str(i+1))
