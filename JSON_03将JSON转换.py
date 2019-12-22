@@ -6,7 +6,7 @@ json_str = '[{"username": "张三", "age": 18, "country": "china"}, {"username":
 persons = json.loads(json_str)
 
 print(type(persons))
-print(persons)
+# print(persons)
 
 for x in persons:
     print(x)

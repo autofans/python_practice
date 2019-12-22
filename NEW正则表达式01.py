@@ -50,9 +50,9 @@ import re
 # print(ret.group())
 
 # 10, * 可以匹配0个或者任意多个字符
-# text = "0553"
-# ret = re.match("\d*", text)
-# print(ret.group())
+text = "0553"
+ret = re.match("\d*", text)
+print(ret.group())
 
 # 11， ？ 问号  匹配一个或者0个（要么只有一个，要么没有）
 # text = "abcd"
@@ -139,11 +139,11 @@ import re
 # print(ret)
 
 # compile函数：将正则表达式提前编译，提高执行效率，还可以注释
-text = "the number is 20.53"
-t = re.compile(r"""
-    \d+  # 小数点前面的数字
-    \.?  # 小数点
-    \d*  #小数点后面的数字
-""", re.VERBOSE)
-ret = re.search(t, text)
-print(ret.group())
+# text = "the number is 20.53"
+# t = re.compile(r"""
+#     \d+  # 小数点前面的数字
+#     \.?  # 小数点
+#     \d*  #小数点后面的数字
+# """, re.VERBOSE)
+# ret = re.search(t, text)
+# print(ret.group())

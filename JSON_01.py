@@ -4,7 +4,7 @@ import json
 # 在python中，只有基础的数据类型才能转换成json格式的字符串，比如，int float str list dict tuple
 persons = [
     {
-        'username':'zhiming',
+        'username': 'zhiming',
         'age': 18,
         'country': 'china'
     },
