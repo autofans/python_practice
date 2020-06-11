@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62bc37fa-8940-46c4-8610-ecb5acd8fb5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/单例__init__只执行一次.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/单例__init__只执行一次.py" beforeDir="false" afterPath="$PROJECT_DIR$/单例__init__只执行一次.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Python.重新__new__方法">
+  <component name="RunManager" selected="Python.单例__init__只执行一次">
     <configuration name="欸欸欸" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -409,6 +410,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="单例__init__只执行一次" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/单例__init__只执行一次.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="__new__方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -474,6 +496,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.单例__init__只执行一次" />
         <item itemvalue="Python.重新__new__方法" />
         <item itemvalue="Python.欸欸欸" />
         <item itemvalue="Python.plus0-100_偶数求和" />
@@ -576,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591889466949</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="222">
+      <created>1591891727563</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591891727563</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -585,31 +615,31 @@
     <option name="LAST_COMMIT_MESSAGE" value="222" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="9" key="CommitChangelistDialog2" timestamp="1591889466415">
+    <state x="491" y="9" key="CommitChangelistDialog2" timestamp="1591891727087">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="491" y="9" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586794530262" />
-    <state x="491" y="9" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1591889466415" />
-    <state width="1894" height="235" key="GridCell.Tab.0.bottom" timestamp="1591722449519">
+    <state x="491" y="9" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1591891727087" />
+    <state width="1894" height="235" key="GridCell.Tab.0.bottom" timestamp="1591895030369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1894" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590081733938" />
-    <state width="1894" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591722449519" />
-    <state width="1894" height="235" key="GridCell.Tab.0.center" timestamp="1591722449519">
+    <state width="1894" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591895030369" />
+    <state width="1894" height="235" key="GridCell.Tab.0.center" timestamp="1591895030369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1894" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590081733938" />
-    <state width="1894" height="235" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591722449519" />
-    <state width="1894" height="235" key="GridCell.Tab.0.left" timestamp="1591722449519">
+    <state width="1894" height="235" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591895030369" />
+    <state width="1894" height="235" key="GridCell.Tab.0.left" timestamp="1591895030369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1894" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590081733938" />
-    <state width="1894" height="235" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591722449519" />
-    <state width="1894" height="235" key="GridCell.Tab.0.right" timestamp="1591722449519">
+    <state width="1894" height="235" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591895030369" />
+    <state width="1894" height="235" key="GridCell.Tab.0.right" timestamp="1591895030369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1894" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590081733938" />
-    <state width="1894" height="235" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591722449519" />
+    <state width="1894" height="235" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591895030369" />
     <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1591722176362">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
