@@ -4,7 +4,7 @@ import time
 
 def run(name):
     print(name, "线程执行了")
-    time.sleep(5)
+    time.sleep(2)
 
 
 # 创建线程对象

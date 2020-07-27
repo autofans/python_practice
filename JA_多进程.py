@@ -4,7 +4,7 @@ import time
 
 def run(name):
     print(name, "进程执行了")
-    time.sleep(5)
+    time.sleep(2)
 
 
 # 创建多进程,多进程可以真正实现同一时间点内多个任务并行（要有多核心的CPU）

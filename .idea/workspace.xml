@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62bc37fa-8940-46c4-8610-ecb5acd8fb5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01_socket_udp发送.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_tcp_client客户端.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_下载器_tcp_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_socket_udp接收数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_tcp_server服务器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_下载器_tcp_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_tcp_servers为多个客户端服务.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_使用同一个套接字收发数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_udp聊天器案例.py" afterDir="false" />
+    <list default="true" id="62bc37fa-8940-46c4-8610-ecb5acd8fb5b" name="Default Changelist" comment="222">
+      <change afterPath="$PROJECT_DIR$/多线程UDP聊天器.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JA_多线程01.py" beforeDir="false" afterPath="$PROJECT_DIR$/JA_多线程01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JA_多进程.py" beforeDir="false" afterPath="$PROJECT_DIR$/JA_多进程.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,28 +33,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Python.01_下载器_tcp_client">
-    <configuration name="方法综合案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/方法综合案例.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.多线程UDP聊天器">
     <configuration name="01_下载器_tcp_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,27 +47,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_下载器_tcp_client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="01_tcp_client客户端" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_tcp_client客户端.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_tcp_server服务器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="JA_多进程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_tcp_server服务器.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JA_多进程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_tcp_servers为多个客户端服务" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="JA_多线程01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_tcp_servers为多个客户端服务.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JA_多线程01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,6 +131,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JA_session.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="多线程UDP聊天器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多线程UDP聊天器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -420,11 +393,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.多线程UDP聊天器" />
+        <item itemvalue="Python.JA_多进程" />
+        <item itemvalue="Python.JA_多线程01" />
         <item itemvalue="Python.01_下载器_tcp_client" />
         <item itemvalue="Python.02_下载器_tcp_server" />
-        <item itemvalue="Python.03_tcp_servers为多个客户端服务" />
-        <item itemvalue="Python.02_tcp_server服务器" />
-        <item itemvalue="Python.01_tcp_client客户端" />
       </list>
     </recent_temporary>
   </component>
@@ -537,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591895084966</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="222">
+      <created>1595858523517</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1595858523517</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -550,38 +530,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="996" y="258" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1595609298116" />
-    <state x="491" y="9" key="CommitChangelistDialog2" timestamp="1591895084501">
+    <state x="491" y="9" key="CommitChangelistDialog2" timestamp="1595864360321">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="491" y="9" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1591895084501" />
+    <state x="491" y="9" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1595864360321" />
     <state x="738" y="419" key="Github.CreateGistDialog" timestamp="1595857934631">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="738" y="419" key="Github.CreateGistDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1595857934631" />
-    <state width="1894" height="181" key="GridCell.Tab.0.bottom" timestamp="1595611987494">
+    <state width="1894" height="307" key="GridCell.Tab.0.bottom" timestamp="1595866821818">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1894" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590081733938" />
-    <state width="1894" height="181" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595611987494" />
-    <state width="1894" height="181" key="GridCell.Tab.0.center" timestamp="1595611987494">
+    <state width="1894" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595866821818" />
+    <state width="1894" height="307" key="GridCell.Tab.0.center" timestamp="1595866821818">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1894" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590081733938" />
-    <state width="1894" height="181" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595611987494" />
-    <state width="1894" height="181" key="GridCell.Tab.0.left" timestamp="1595611987494">
+    <state width="1894" height="307" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595866821818" />
+    <state width="1894" height="307" key="GridCell.Tab.0.left" timestamp="1595866821818">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1894" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590081733938" />
-    <state width="1894" height="181" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595611987494" />
-    <state width="1894" height="181" key="GridCell.Tab.0.right" timestamp="1595611987494">
+    <state width="1894" height="307" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595866821818" />
+    <state width="1894" height="307" key="GridCell.Tab.0.right" timestamp="1595866821818">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1894" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590081733938" />
-    <state width="1894" height="181" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595611987494" />
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1595858299941">
+    <state width="1894" height="307" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595866821818" />
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1595858586828">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1595858299941" />
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1595858586828" />
     <state x="717" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591721965499">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
