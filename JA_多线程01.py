@@ -2,22 +2,26 @@ import threading
 import time
 
 
-def run(name):
-    print(name, "线程执行了")
-    time.sleep(2)
+def test1():
+    while True:
+        print("1.....")
+        time.sleep(1)
 
 
-# 创建线程对象
-t1 = threading.Thread(target=run, args=("t1",))
-t2 = threading.Thread(target=run, args=("t2",))
+def test2():
+    while True:
+        print("2.....")
+        time.sleep(1)
 
-# 启动线程
-t1.start()
-t2.start()
 
-# 等待子线程执行完毕后5秒才执行主线程的内容
-t1.join()
-t2.join()
+def main():
+    # 创建两个线程，同时执行test1和test2函数
+    t1 = threading.Thread(target=test1)
+    t2 = threading.Thread(target=test2)
 
-print("执行完毕")
+    t1.start()
+    t2.start()
 
+
+if __name__ == "__main__":
+    main()

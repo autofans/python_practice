@@ -1,25 +1,29 @@
-from multiprocessing import Process
+import multiprocessing
 import time
 
 
-def run(name):
-    print(name, "进程执行了")
-    time.sleep(2)
+def test1():
+    while True:
+        print("1.....")
+        time.sleep(1)
 
 
-# 创建多进程,多进程可以真正实现同一时间点内多个任务并行（要有多核心的CPU）
-p1 = Process(target=run, args=("p1",))
-p2 = Process(target=run, args=("p2",))
-p3 = Process(target=run, args=("p3",))
-p4 = Process(target=run, args=("p4",))
-p5 = Process(target=run, args=("p5",))
+def test2():
+    while True:
+        print("2.....")
+        time.sleep(1)
+
+
+def main():
+    # 创建两个进程，同时执行test1和test2函数
+    p1 = multiprocessing.Process(target=test1)
+    p2 = multiprocessing.Process(target=test2)
+
+    p1.start()
+    p2.start()
 
 
 if __name__ == "__main__":
-    p1.start()
-    p2.start()
-    p3.start()
-    p4.start()
-    p5.start()
+    main()
 
 
