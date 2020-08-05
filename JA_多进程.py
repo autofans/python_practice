@@ -2,22 +2,22 @@ import multiprocessing
 import time
 
 
-def test1():
+def task1():
     while True:
-        print("1.....")
+        print(".....1.....")
         time.sleep(1)
 
 
-def test2():
+def task2():
     while True:
-        print("2.....")
+        print(".....2.....")
         time.sleep(1)
 
 
 def main():
     # 创建两个进程，同时执行test1和test2函数
-    p1 = multiprocessing.Process(target=test1)
-    p2 = multiprocessing.Process(target=test2)
+    p1 = multiprocessing.Process(target=task1)
+    p2 = multiprocessing.Process(target=task2)
 
     p1.start()
     p2.start()

@@ -30,4 +30,5 @@ classmate.add("100")
 
 for x in classmate:
     print(x)
+    time.sleep(1)
 
