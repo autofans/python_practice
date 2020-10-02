@@ -10,4 +10,4 @@ pat2 = r"\d{8,}"   # {8,}前面的原子至少出现n次
 
 pat3 = r"\d{7,9}"  # {n,m}前面的原子出现次数介于n-m之间
 
-print(re.search(pat2, a))
+print(re.search(pat1, a))

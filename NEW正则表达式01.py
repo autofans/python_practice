@@ -50,9 +50,9 @@ import re
 # print(ret.group())
 
 # 10, * 可以匹配0个或者任意多个字符
-text = "0553"
-ret = re.match("\d*", text)
-print(ret.group())
+# text = "0553"
+# ret = re.match("\d*", text)
+# print(ret.group())
 
 # 11， ？ 问号  匹配一个或者0个（要么只有一个，要么没有）
 # text = "abcd"

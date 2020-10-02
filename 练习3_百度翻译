@@ -1,0 +1,27 @@
+import requests
+import json
+
+
+def main():
+    url = "https://fanyi.baidu.com/sug"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+                      " AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+    }
+
+    kw = input("输入要翻译的文字：")
+    form_data = {
+        "kw": kw
+    }
+    # 在页面Response Headers中 返回的类型是 content-type:json
+    response = requests.post(url=url, data=form_data, headers=headers).json()
+    print(response)
+    data = json.dumps(response, ensure_ascii=False)
+
+    file_name = kw
+    with open(r"C:\Users\autof\Desktop\%s.text" % file_name, "w", encoding="utf-8") as fp:
+        fp.write(data)
+
+
+if __name__ == '__main__':
+    main()

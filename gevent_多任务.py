@@ -2,34 +2,32 @@ import gevent
 import time
 from gevent import monkey
 
+
 monkey.patch_all()
 
 
-def task1():
-    while True:
-        print(".....1.....")
+def f1(n):
+    for i in range(n):
+        print(gevent.getcurrent(), i)
         time.sleep(0.5)
 
 
-def task2():
-    while True:
-        print(".....2.....")
+def f2(n):
+    for i in range(n):
+        print(gevent.getcurrent(), i)
         time.sleep(0.5)
 
 
-def task3():
-    while True:
-        print(".....3.....")
+def f3(n):
+    for i in range(n):
+        print(gevent.getcurrent(), i)
         time.sleep(0.5)
 
 
-def main():
-    g1 = gevent.spawn(task1, 5)
-    g2 = gevent.spawn(task2, 5)
-    g3 = gevent.spawn(task3, 5)
+g1 = gevent.spawn(f1, 5)
+g2 = gevent.spawn(f1, 5)
+g3 = gevent.spawn(f1, 5)
 
-    gevent.joinall([g1, g2, g3])
-
-
-if __name__ == '__main__':
-    main()
+g1.join()
+g2.join()
+g3.join()
