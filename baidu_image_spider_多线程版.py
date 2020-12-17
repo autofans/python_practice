@@ -1,16 +1,21 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/10/14 1:42
+# @Time    : 2020/11/3 22:53
 # @Author  : Liu BO
-# @FileName: baidu_image_spider.py
+# @FileName: baidu_image_spider_多线程版.py
 # @Software: PyCharm
 import requests
 import re
 import time
+import threading
 
 
 class Spider(object):
 
     def __init__(self):
+
+        self.lock = threading.Lock()
+
+
         self.header = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
                                      " AppleWebKit/537.36 (KHTML, like Gecko) Chrome"
                                      "/86.0.4240.75 Safari/537.36"}
@@ -30,10 +35,12 @@ class Spider(object):
 
         response = requests.get(url, headers=self.header).text
 
+
         obj = re.compile(r'"objURL":"(.*?)"')
         obj_list = obj.findall(response)
 
         for url in obj_list:
+
             self.decode(url)
 
     def decode(self, url):
@@ -108,10 +115,23 @@ class Spider(object):
         except requests.exceptions.ConnectionError:
             print("requests.exceptions.ConnectionError:URL失效!!!")
 
+    def start(self, url):
+        self.lock.acquire()
+        t1 = threading.Thread(target=self.url_spider).start()
+        self.lock.release()
+
+        self.lock.acquire()
+        t2 = threading.Thread(target=self.decode, args=(url,)).start()
+        self.lock.release()
+
+
+
 
 def main():
+
     img_spider = Spider()
-    img_spider.url_spider()
+    img_spider.start()
+
 
 
 if __name__ == '__main__':
@@ -124,4 +144,3 @@ if __name__ == '__main__':
     print("说明：输入要搜索的关键词，然后输入要下载图片的页数（每一页包含30张图片）")
     print("*" * 80)
     main()
-
