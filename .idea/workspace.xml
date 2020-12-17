@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62bc37fa-8940-46c4-8610-ecb5acd8fb5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baidu_image_spider_多线程版.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md5加密.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/搜款网视频专区01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu_image_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/baidu_image_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md5加密.py" beforeDir="false" afterPath="$PROJECT_DIR$/md5加密.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -552,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602611073644</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="222">
+      <created>1608220774534</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1608220774535</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -574,10 +578,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="624" y="227" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599844284581" />
-    <state x="491" y="9" key="CommitChangelistDialog2" timestamp="1602611072941">
+    <state x="491" y="9" key="CommitChangelistDialog2" timestamp="1608220773908">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="491" y="9" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1602611072941" />
+    <state x="491" y="9" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1608220773908" />
     <state width="1894" height="390" key="GridCell.Tab.0.bottom" timestamp="1608220577397">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -602,9 +606,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="623" height="498" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1600358054020" />
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1608220574737">
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1608220850013">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1608220574737" />
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1608220850013" />
   </component>
 </project>
