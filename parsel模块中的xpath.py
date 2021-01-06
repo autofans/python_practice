@@ -60,4 +60,4 @@ result10 = data.xpath('//a[@href="link4.html"]/text()').extract()
 # 9 获取第五个<a>标签href的属性值
 result11 = data.xpath('//li[5]/a/@href').extract()
 
-print(result11)
+print(result9)

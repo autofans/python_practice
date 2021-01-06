@@ -15,4 +15,8 @@ result2 = pat2.search(a)
 print(result)
 print(result2)
 
+URL = r'"thumbnail":"//img.alicdn.com/imgextra/i1/0/O1CN01y3JxGT1ILFb1M0fqo_!!0-rate.jpg'
 
+pat3 = re.compile(r'"thumbnail":"(.*?)_!!0-rate.jpg')
+result3 = pat3.search(URL)
+print(result3)
