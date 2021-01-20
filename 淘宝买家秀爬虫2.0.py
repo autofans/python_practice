@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2021/1/1 1:22
 # @Author  : Liu BO
-# @FileName: 淘宝买家秀爬虫1.0.py
+# @FileName: 淘宝买家秀爬虫2.0.py
 # @Software: PyCharm
 import parsel
 import requests
@@ -64,16 +64,27 @@ class Spider(object):
 
         img_data = requests.get(url=full_url, headers=self.header).content
 
-        with open(r'D:\买家秀\%s.jpg' % self.file, "wb") as fp:
+        with open(r'C:\买家秀\%s.jpg' % (str(self.page_num) + "A" + str(self.file)), "wb") as fp:
             fp.write(img_data)
             self.file += 1
+
             time.sleep(1.5)
 
 
 def main():
-    web_tao = Spider()
-    web_tao.spider_url()
+
+    while True:
+        web_tao = Spider()
+        web_tao.spider_url()
 
 
 if __name__ == '__main__':
+    print("--------------------* 淘宝买家秀爬虫 Version 2.0 *--------------------")
+    print("*" * 80)
+    print("@Author  : LiuBO")
+    print("@Software: PyCharm")
+    print("*" * 80)
+    print("此软件是用Python语言所写的一个爬虫程序，功能不断完善中.....")
+    print("使用说明：先在C盘创建一个名为“买家秀”的文件夹，按提示操作即可！")
+    print("*" * 80)
     main()
